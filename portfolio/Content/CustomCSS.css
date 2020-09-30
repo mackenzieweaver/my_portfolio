@@ -1,0 +1,11 @@
+﻿.card > a {
+    color: black;
+}
+
+.card-body > h5 {
+    margin-top: 12px;
+}
+
+.card-body > p {
+    color: gray;
+}

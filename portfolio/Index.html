@@ -31,6 +31,7 @@
 
     <!-- Template Main CSS File -->
     <link href="Content/style.css" rel="stylesheet" />
+    <link href="Content/CustomCSS.css" rel="stylesheet" />
 
     <!-- =======================================================
     * Template Name: iPortfolio - v1.4.0
@@ -50,23 +51,26 @@
         <div class="d-flex flex-column">
 
             <div class="profile">
-                <img src="Assets/profile-img-600.jpg" alt="" class="img-fluid rounded-circle">
-                <h1 class="text-light"><a href="index.html">Mackenzie Weaver</a></h1>
+                <a href="#about">
+                    <img src="Assets/profile-img-600.jpg" alt="" class="img-fluid rounded-circle">
+                </a>
+                <h1 class="text-light"><a href="#about">Mackenzie Weaver</a></h1>
                 <div class="social-links mt-3 text-center">
                     <a href="https://twitter.com/Mackenz60579223" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
                     <a href="https://www.linkedin.com/in/mackenzie-weaver/" target="_blank" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
                     <a href="https://github.com/mackenzieweaver" target="_blank" class="github"><i class="fab fa-github"></i></a>
                 </div>
             </div>
-            
+
             <!-- .nav-menu -->
             <nav class="nav-menu">
                 <ul>
-                    <li class="active"><a href="index.html"><span>Home</span></a></li>
+                    <li class="active"><a href="#hero"><span>Home</span></a></li>
                     <li><a href="#about"><span>About</span></a></li>
-                    <li><a href="#resume"><span>Resume</span></a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#resume"><span>Resume</span></a></li>
+                    <!--<li><a href="#services">Services</a></li>-->
+                    <li><a href="#blog">Blog</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -77,12 +81,11 @@
         </div>
     </header>
     <!-- End Header -->
-
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
         <div class="hero-container" data-aos="fade-in">
             <h1>Mackenzie Weaver</h1>
-            <p>I'm a <span class="typed" data-typed-items="Full Stack Web Developer, Software Engineer, Photographer, Problem Solver, Critical Thinker, Hard Worker, Quick Learner"></span></p>
+            <p>I'm a <span class="typed" data-typed-items="Full Stack Web Developer, Software Engineer, Problem Solver, Critical Thinker, Hard Worker, Quick Learner"></span></p>
         </div>
     </section>
     <!-- End Hero -->
@@ -100,7 +103,7 @@
                     </p>
                 </div>
 
-                <div class="row">
+                <!--<div class="row">
                     <div class="col-lg-4" data-aos="fade-right">
                         <img src="Assets/profile-img-600.jpg" class="img-fluid" alt="">
                     </div>
@@ -133,59 +136,62 @@
                             Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
                         </p>
                     </div>
-                </div>
+                </div>-->
 
             </div>
-        </section><!-- End About Section -->
+        </section>
+
+        <!-- End About Section -->
         <!-- ======= Facts Section ======= -->
-        <section id="facts" class="facts">
-            <div class="container">
+        <!--<section id="facts" class="facts">
+        <div class="container">
 
-                <div class="section-title">
-                    <h2>Facts</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <div class="section-title">
+                <h2>Facts</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+
+            <div class="row no-gutters">
+
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
+                    <div class="count-box">
+                        <i class="icofont-simple-smile"></i>
+                        <span data-toggle="counter-up">232</span>
+                        <p><strong>Happy Clients</strong> consequuntur quae</p>
+                    </div>
                 </div>
 
-                <div class="row no-gutters">
-
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up">
-                        <div class="count-box">
-                            <i class="icofont-simple-smile"></i>
-                            <span data-toggle="counter-up">232</span>
-                            <p><strong>Happy Clients</strong> consequuntur quae</p>
-                        </div>
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
+                    <div class="count-box">
+                        <i class="icofont-document-folder"></i>
+                        <span data-toggle="counter-up">521</span>
+                        <p><strong>Projects</strong> adipisci atque cum quia aut</p>
                     </div>
+                </div>
 
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="100">
-                        <div class="count-box">
-                            <i class="icofont-document-folder"></i>
-                            <span data-toggle="counter-up">521</span>
-                            <p><strong>Projects</strong> adipisci atque cum quia aut</p>
-                        </div>
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
+                    <div class="count-box">
+                        <i class="icofont-live-support"></i>
+                        <span data-toggle="counter-up">1,463</span>
+                        <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
                     </div>
+                </div>
 
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="200">
-                        <div class="count-box">
-                            <i class="icofont-live-support"></i>
-                            <span data-toggle="counter-up">1,463</span>
-                            <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
-                        </div>
+                <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
+                    <div class="count-box">
+                        <i class="icofont-users-alt-5"></i>
+                        <span data-toggle="counter-up">15</span>
+                        <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
                     </div>
-
-                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch" data-aos="fade-up" data-aos-delay="300">
-                        <div class="count-box">
-                            <i class="icofont-users-alt-5"></i>
-                            <span data-toggle="counter-up">15</span>
-                            <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
-                        </div>
-                    </div>
-
                 </div>
 
             </div>
-        </section><!-- End Facts Section -->
+
+        </div>
+        </section>-->
+        <!-- End Facts Section -->
         <!-- ======= Skills Section ======= -->
-        <section id="skills" class="skills section-bg">
+        <!--<section id="skills" class="skills section-bg">
             <div class="container">
 
                 <div class="section-title">
@@ -248,88 +254,24 @@
                 </div>
 
             </div>
-        </section><!-- End Skills Section -->
-        <!-- ======= Resume Section ======= -->
-        <section id="resume" class="resume">
-            <div class="container">
-
-                <div class="section-title">
-                    <h2>Resume</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-6" data-aos="fade-up">
-                        <h3 class="resume-title">Sumary</h3>
-                        <div class="resume-item pb-0">
-                            <h4>Alex Smith</h4>
-                            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-                            <ul>
-                                <li>Portland par 127,Orlando, FL</li>
-                                <li>(123) 456-7891</li>
-                                <li>alice.barkley@example.com</li>
-                            </ul>
-                        </div>
-
-                        <h3 class="resume-title">Education</h3>
-                        <div class="resume-item">
-                            <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2015 - 2016</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-                        </div>
-                        <div class="resume-item">
-                            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                            <h5>2010 - 2014</h5>
-                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <h3 class="resume-title">Professional Experience</h3>
-                        <div class="resume-item">
-                            <h4>Senior graphic design specialist</h4>
-                            <h5>2019 - Present</h5>
-                            <p><em>Experion, New York, NY </em></p>
-                            <ul>
-                                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
-                                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
-                                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
-                                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
-                            </ul>
-                        </div>
-                        <div class="resume-item">
-                            <h4>Graphic design specialist</h4>
-                            <h5>2017 - 2018</h5>
-                            <p><em>Stepping Stone Advertising, New York, NY</em></p>
-                            <ul>
-                                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
-                                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section><!-- End Resume Section -->
+        </section>-->
+        <!-- End Skills Section -->
         <!-- ======= Portfolio Section ======= -->
         <section id="portfolio" class="portfolio section-bg">
             <div class="container">
 
                 <div class="section-title">
                     <h2>Portfolio</h2>
-                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                    <p>My portfolio includes business level projects, mini sites, and coding challenges which I faced in the Coder Foundry bootcamp. The business level projects are full-fledged projects ready for production and use by clients. The mini sites are html, css, and js in order to prove concept. The coding challenges were short exercises in order to compete for star coder.</p>
                 </div>
 
                 <div class="row" data-aos="fade-up">
                     <div class="col-lg-12 d-flex justify-content-center">
                         <ul id="portfolio-flters">
                             <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-app">App</li>
-                            <li data-filter=".filter-card">Card</li>
-                            <li data-filter=".filter-web">Web</li>
+                            <li data-filter=".filter-app">Business</li>
+                            <li data-filter=".filter-card">Mini Sites</li>
+                            <li data-filter=".filter-web">Challenges</li>
                         </ul>
                     </div>
                 </div>
@@ -429,53 +371,76 @@
                 </div>
 
             </div>
-        </section><!-- End Portfolio Section -->
-        <!-- ======= Services Section ======= -->
-        <section id="services" class="services">
+        </section>
+        <!-- End Portfolio Section -->
+        <!-- ======= Resume Section ======= -->
+        <section id="resume" class="resume">
             <div class="container">
 
                 <div class="section-title">
-                    <h2>Services</h2>
+                    <h2>Resume</h2>
                     <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
-                        <div class="icon"><i class="icofont-computer"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    <div class="col-lg-6" data-aos="fade-up">
+                        <h3 class="resume-title">Sumary</h3>
+                        <div class="resume-item pb-0">
+                            <h4>Alex Smith</h4>
+                            <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
+                            <ul>
+                                <li>Portland par 127,Orlando, FL</li>
+                                <li>(123) 456-7891</li>
+                                <li>alice.barkley@example.com</li>
+                            </ul>
+                        </div>
+
+                        <h3 class="resume-title">Education</h3>
+                        <div class="resume-item">
+                            <h4>Master of Fine Arts &amp; Graphic Design</h4>
+                            <h5>2015 - 2016</h5>
+                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+                            <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
+                            <h5>2010 - 2014</h5>
+                            <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+                            <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur neque etlon sader mart dila</p>
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
-                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
-                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                        <div class="icon"><i class="icofont-earth"></i></div>
-                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                        <div class="icon"><i class="icofont-image"></i></div>
-                        <h4 class="title"><a href="">Magni Dolores</a></h4>
-                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                        <div class="icon"><i class="icofont-settings"></i></div>
-                        <h4 class="title"><a href="">Nemo Enim</a></h4>
-                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-                    </div>
-                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
-                        <div class="icon"><i class="icofont-tasks-alt"></i></div>
-                        <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-                        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="resume-title">Professional Experience</h3>
+                        <div class="resume-item">
+                            <h4>Senior graphic design specialist</h4>
+                            <h5>2019 - Present</h5>
+                            <p><em>Experion, New York, NY </em></p>
+                            <ul>
+                                <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials</li>
+                                <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project. </li>
+                                <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design</li>
+                                <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000</li>
+                            </ul>
+                        </div>
+                        <div class="resume-item">
+                            <h4>Graphic design specialist</h4>
+                            <h5>2017 - 2018</h5>
+                            <p><em>Stepping Stone Advertising, New York, NY</em></p>
+                            <ul>
+                                <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and advertisements).</li>
+                                <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                                <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                                <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
 
             </div>
-        </section><!-- End Services Section -->
+        </section>
+        <!-- End Resume Section -->
         <!-- ======= Testimonials Section ======= -->
-        <section id="testimonials" class="testimonials section-bg">
+        <!--<section id="testimonials" class="testimonials section-bg">
             <div class="container">
 
                 <div class="section-title">
@@ -543,7 +508,90 @@
                 </div>
 
             </div>
-        </section><!-- End Testimonials Section -->
+        </section>-->
+        <!-- End Testimonials Section -->
+        <!-- ======= Services Section ======= -->
+        <!--<section id="services" class="services">
+            <div class="container">
+
+                <div class="section-title">
+                    <h2>Services</h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up">
+                        <div class="icon"><i class="icofont-computer"></i></div>
+                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                        <div class="icon"><i class="icofont-chart-bar-graph"></i></div>
+                        <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                        <div class="icon"><i class="icofont-earth"></i></div>
+                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                        <div class="icon"><i class="icofont-image"></i></div>
+                        <h4 class="title"><a href="">Magni Dolores</a></h4>
+                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                        <div class="icon"><i class="icofont-settings"></i></div>
+                        <h4 class="title"><a href="">Nemo Enim</a></h4>
+                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                        <div class="icon"><i class="icofont-tasks-alt"></i></div>
+                        <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+                        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>-->
+        <!-- End Services Section -->
+        <!-- ======= Blog Section ======= -->
+        <section id="blog" class="section-bg">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Blog</h2>
+                    <p>I like to write about software, hardware, and other thoughts about the software industry and how you can be a better developer. Topics range from beginner to professional and are mostly based on information I've either gathered from Coder Foundry bootcamp, experience, or research.</p>
+                </div>
+                <div class="card-deck">
+                    <div class="card">
+                        <a href="https://docs.google.com/document/d/1to9F7hdDQf2YOPwXxf7ndGSJADn3jFxxKGRUhGVuT_M/edit?usp=sharing" target="_blank">
+                            <div class="card-body">
+                                <img src="Assets/Blog/html-illustration.png" />
+                                <h5 class="card-title">What is HTML?</h5>
+                                <p class="card-text">The acronym stands for Hyper Text Markup Language, and it is the primary language that you will be using to create websites. It is not a programming language, but rather a “markup” language...</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Blog Section -->
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
             <div class="container">
@@ -558,67 +606,98 @@
                     <div class="col-lg-5 d-flex align-items-stretch">
                         <div class="info">
                             <div class="address">
-                                <i class="icofont-google-map"></i>
-                                <h4>Location:</h4>
-                                <p>A108 Adam Street, New York, NY 535022</p>
+                                <a href="https://www.google.com/maps/place/Beaverton,+OR/@45.4837939,-122.8806598,12z/data=!3m1!4b1!4m5!3m4!1s0x5495082476f88863:0x10e0cf158aacbd08!8m2!3d45.4888761!4d-122.8013771" target="_blank">
+                                    <!--<i class="icofont-google-map"></i>-->
+                                    <i class="fas fa-map-marker"></i>
+                                    <h4>Location:</h4>
+                                    <p>Beaverton, OR</p>
+                                </a>
                             </div>
 
                             <div class="email">
-                                <i class="icofont-envelope"></i>
-                                <h4>Email:</h4>
-                                <p>info@example.com</p>
+                                <a href="mailto:macknz7@gmail.com">
+                                    <!--<i class="icofont-envelope"></i>-->
+                                    <i class="fas fa-envelope"></i>
+                                    <h4>Email:</h4>
+                                    <p>macknz7@gmail.com</p>
+                                </a>
                             </div>
 
                             <div class="phone">
-                                <i class="icofont-phone"></i>
-                                <h4>Call:</h4>
-                                <p>+1 5589 55488 55s</p>
+                                <a href="tel:503-995-8153">
+                                    <!--<i class="icofont-phone"></i>-->
+                                    <i class="fas fa-phone-alt"></i>
+                                    <h4>Call:</h4>
+                                    <p>+1 503 995 8153</p>
+                                </a>
                             </div>
 
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+                            <!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>-->
+
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d89513.77371904785!2d-122.88065981401742!3d45.483793898466224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5495082476f88863%3A0x10e0cf158aacbd08!2sBeaverton%2C%20OR!5e0!3m2!1sen!2sus!4v1601490122719!5m2!1sen!2sus" width="100%" height="290px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                         </div>
 
                     </div>
 
                     <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+
+                        <!-- FORM start -->
                         <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+
+                            <!-- Top row contains Your Name and Your Email -->
                             <div class="form-row">
+
                                 <div class="form-group col-md-6">
                                     <label for="name">Your Name</label>
                                     <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                                     <div class="validate"></div>
                                 </div>
+
                                 <div class="form-group col-md-6">
                                     <label for="name">Your Email</label>
                                     <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
                                     <div class="validate"></div>
                                 </div>
+
                             </div>
+
+                            <!-- Then Subject all across form -->
                             <div class="form-group">
                                 <label for="name">Subject</label>
                                 <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                                 <div class="validate"></div>
                             </div>
+
+                            <!-- Message is a big box -->
                             <div class="form-group">
                                 <label for="name">Message</label>
                                 <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
                                 <div class="validate"></div>
                             </div>
+
+                            <!-- Displays after submission? -->
                             <div class="mb-3">
                                 <div class="loading">Loading</div>
                                 <div class="error-message"></div>
                                 <div class="sent-message">Your message has been sent. Thank you!</div>
                             </div>
+
+                            <!-- Submit button -->
                             <div class="text-center"><button type="submit">Send Message</button></div>
+
                         </form>
+                        <!-- FORM end -->
+
                     </div>
 
                 </div>
 
             </div>
-        </section><!-- End Contact Section -->
+        </section>
+        <!-- End Contact Section -->
 
-    </main><!-- End #main -->
+    </main>
+    <!-- End #main -->
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="container">
@@ -633,7 +712,8 @@
                 Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
             </div>
         </div>
-    </footer><!-- End  Footer -->
+    </footer>
+    <!-- End  Footer -->
 
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 

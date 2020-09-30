@@ -282,7 +282,7 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 120px 0;
   overflow: hidden;
 }
 
@@ -310,6 +310,7 @@ section {
   width: 50px;
   height: 3px;
   background: #149ddd;
+  /*background: black;*/
   bottom: 0;
   left: 0;
 }

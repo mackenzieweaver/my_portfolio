@@ -70,6 +70,7 @@
     <Content Include="android-chrome-192x192.png" />
     <Content Include="android-chrome-512x512.png" />
     <Content Include="apple-touch-icon.png" />
+    <Content Include="Assets\Blog\html-illustration.png" />
     <Content Include="Assets\hero-bg.jpg" />
     <Content Include="Assets\portfolio-1.jpg" />
     <Content Include="Assets\portfolio-2.jpg" />
@@ -89,6 +90,7 @@
     <Content Include="Content\aos.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\boxicons.min.css" />
+    <Content Include="Content\CustomCSS.css" />
     <Content Include="Content\icofont.min.css" />
     <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\style.css" />

@@ -41,3 +41,7 @@
 a {
     cursor: pointer;
 }
+
+.camoflauge {
+    color: rgb(4,11,20) !important;
+}

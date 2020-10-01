@@ -67,9 +67,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="android-chrome-192x192.png" />
-    <Content Include="android-chrome-512x512.png" />
-    <Content Include="apple-touch-icon.png" />
     <Content Include="Assets\Blog\bootstrap-icon.png" />
     <Content Include="Assets\Blog\html-illustration.png" />
     <Content Include="Assets\hero-bg.jpg" />
@@ -99,10 +96,13 @@
     <Content Include="Content\owl.carousel.min.css" />
     <Content Include="Content\style.css" />
     <Content Include="Content\venobox.css" />
-    <Content Include="favicon-16x16.png" />
-    <Content Include="favicon-32x32.png" />
-    <Content Include="favicon.ico" />
     <Content Include="Index.html" />
+    <Content Include="Favicon\android-chrome-192x192.png" />
+    <Content Include="Favicon\android-chrome-512x512.png" />
+    <Content Include="Favicon\apple-touch-icon.png" />
+    <Content Include="Favicon\favicon-16x16.png" />
+    <Content Include="Favicon\favicon-32x32.png" />
+    <Content Include="Favicon\favicon.ico" />
     <Content Include="Scripts\aos.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\counterup.min.js" />
@@ -123,6 +123,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Favicon\site.webmanifest" />
     <None Include="packages.config" />
     <Content Include="site.webmanifest" />
     <Content Include="Scripts\bootstrap.bundle.min.js.map" />

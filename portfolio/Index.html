@@ -18,6 +18,12 @@
     <!-- Font Awesome Connection -->
     <script src="https://kit.fontawesome.com/8b5ae67e5c.js" crossorigin="anonymous"></script>
 
+    <!-- Email JS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        emailjs.init('user_gj4dpPUkZEbiymwIRZZv2')
+    </script>
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -51,9 +57,7 @@
         <div class="d-flex flex-column">
 
             <div class="profile">
-                <a href="#about">
-                    <img src="Assets/profile-img-600.jpg" alt="" class="img-fluid rounded-circle">
-                </a>
+                <a href="#about" class="scrollto"><img src="Assets/profile-img-600.jpg" alt="" class="img-fluid rounded-circle"></a>
                 <h1 class="text-light"><a href="#about">Mackenzie Weaver</a></h1>
                 <div class="social-links mt-3 text-center">
                     <a href="https://twitter.com/Mackenz60579223" target="_blank" class="twitter"><i class="fab fa-twitter"></i></a>
@@ -403,7 +407,7 @@
                         <div class="resume-item">
                             <h4>Assocciate's Degree in Electronics Engineering</h4>
                             <h5>2013 - 2015</h5> <span><a href="https://www.pcc.edu/programs/electronic-engineering/wp-content/uploads/sites/83/2020/04/advising-guide-eet-degree-2019.pdf" target="_blank">Courses</a></span>
-                            <p><em>Portland Community College, Portland, OR</em></p>                           
+                            <p><em>Portland Community College, Portland, OR</em></p>
                             <p>
                                 PCC is accredited by the Northwest Association of Schools and Colleges Commission. In addition, our EET program offers unique flexibility with day and evening courses, real-world training, and quality instruction from faculty who possess advanced degrees and a broad range of industry experience.
                             </p>
@@ -441,7 +445,6 @@
             </div>
         </section>
         <!-- End Resume Section -->
-
         <!-- ======= Testimonials Section ======= -->
         <!--<section id="testimonials" class="testimonials section-bg">
             <div class="container">
@@ -513,7 +516,6 @@
             </div>
         </section>-->
         <!-- End Testimonials Section -->
-
         <!-- ======= Services Section ======= -->
         <!--<section id="services" class="services">
             <div class="container">
@@ -559,7 +561,6 @@
             </div>
         </section>-->
         <!-- End Services Section -->
-
         <!-- ======= Blog Section ======= -->
         <section id="blog" class="section-bg">
             <div class="container">
@@ -599,7 +600,6 @@
             </div>
         </section>
         <!-- End Blog Section -->
-
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="contact">
             <div class="container">
@@ -610,7 +610,7 @@
                 </div>
 
                 <div class="row" data-aos="fade-in">
-
+                    <!-- Google maps section -->
                     <div class="col-lg-5 d-flex align-items-stretch">
                         <div class="info">
                             <div class="address">
@@ -648,11 +648,9 @@
                     </div>
 
                     <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-
                         <!-- FORM start -->
-                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-
-                            <!-- Top row contains Your Name and Your Email -->
+                        <!--<form id="contact-form" action="forms/contact.php" method="post" role="form" class="php-email-form">
+                             Top row contains Your Name and Your Email
                             <div class="form-row">
 
                                 <div class="form-group col-md-6">
@@ -669,33 +667,57 @@
 
                             </div>
 
-                            <!-- Then Subject all across form -->
+                             Then Subject all across form
                             <div class="form-group">
                                 <label for="name">Subject</label>
                                 <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                                 <div class="validate"></div>
                             </div>
 
-                            <!-- Message is a big box -->
+                             Message is a big box
                             <div class="form-group">
                                 <label for="name">Message</label>
                                 <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for us"></textarea>
                                 <div class="validate"></div>
                             </div>
 
-                            <!-- Displays after submission? -->
+                             Displays after submission?
                             <div class="mb-3">
                                 <div class="loading">Loading</div>
                                 <div class="error-message"></div>
                                 <div class="sent-message">Your message has been sent. Thank you!</div>
                             </div>
 
-                            <!-- Submit button -->
-                            <div class="text-center"><button type="submit">Send Message</button></div>
+                             Submit button
+                            <div class="text-center">
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </form>-->
+                        <form id="form">
+                            <div class="field">
+                                <label for="subject">subject</label>
+                                <input type="text" name="subject" id="subject">
+                            </div>
+                            <div class="field">
+                                <label for="name">name</label>
+                                <input type="text" name="name" id="name">
+                            </div>
+                            <div class="field">
+                                <label for="message">message</label>
+                                <input type="text" name="message" id="message">
+                            </div>
+                            <div class="field">
+                                <label for="email">email</label>
+                                <input type="text" name="email" id="email">
+                            </div>
+                            <div class="field">
+                                <label for="reply_to">reply_to</label>
+                                <input type="text" name="reply_to" id="reply_to">
+                            </div>
 
+                            <input type="submit" id="contact_button" value="Send Email">
                         </form>
                         <!-- FORM end -->
-
                     </div>
 
                 </div>
@@ -709,15 +731,15 @@
     <!-- ======= Footer ======= -->
     <footer id="footer">
         <div class="container">
-            <div class="copyright">
+            <div class="copyright" style="color: rgb(4,11,20)">
                 &copy; Copyright <strong><span>iPortfolio</span></strong>
             </div>
-            <div class="credits">
+            <div class="credits" style="color: rgb(4,11,20)">
                 <!-- All the links in the footer should remain intact. -->
                 <!-- You can delete the links only if you purchased the pro version. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/ -->
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Designed by <a href="https://bootstrapmade.com/" style="color: rgb(4,11,20)">BootstrapMade</a>
             </div>
         </div>
     </footer>
@@ -738,8 +760,9 @@
     <script src="Scripts/typed.min.js"></script>
     <script src="Scripts/aos.js"></script>
 
-    <!-- Template Main JS File -->
+    <!-- Main JS File -->
     <script src="Scripts/main.js"></script>
+    <script src="Scripts/my_js.js"></script>
 
 </body>
 

@@ -107,6 +107,7 @@
     <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\jquery.waypoints.min.js" />
     <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\my_js.js" />
     <Content Include="Scripts\owl.carousel.min.js" />
     <Content Include="Scripts\typed.min.js" />
     <Content Include="Scripts\validate.js" />

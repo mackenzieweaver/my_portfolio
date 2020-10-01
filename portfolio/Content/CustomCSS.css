@@ -40,6 +40,14 @@
         margin: 0;
         margin-bottom: 30px;
     }
+
+    section {
+        padding: 12px 0 0 0;
+    }
+
+    .contact {
+        padding-bottom: 0px;
+    }
 }
 
 a {

@@ -83,6 +83,9 @@
     <Content Include="Assets\portfolio-8.jpg" />
     <Content Include="Assets\portfolio-9.jpg" />
     <Content Include="Assets\profile-img-600.jpg" />
+    <Content Include="Assets\Skills\dotnet_csharp.png" />
+    <Content Include="Assets\Skills\html5_css_js_logos.png" />
+    <Content Include="Assets\Skills\vs_2019_splash_screen.jpg" />
     <Content Include="Assets\testimonials-1.jpg" />
     <Content Include="Assets\testimonials-2.jpg" />
     <Content Include="Assets\testimonials-3.jpg" />

@@ -70,6 +70,7 @@
     <Content Include="android-chrome-192x192.png" />
     <Content Include="android-chrome-512x512.png" />
     <Content Include="apple-touch-icon.png" />
+    <Content Include="Assets\Blog\bootstrap-icon.png" />
     <Content Include="Assets\Blog\html-illustration.png" />
     <Content Include="Assets\hero-bg.jpg" />
     <Content Include="Assets\portfolio-1.jpg" />

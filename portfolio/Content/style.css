@@ -30,17 +30,17 @@ h1, h2, h3, h4, h5, h6 {
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
-  position: fixed;
-  display: none;
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  right: 15px;
-  bottom: 15px;
-  background: #149ddd;
-  color: #fff;
-  transition: display 0.5s ease-in-out;
-  z-index: 99999;
+    position: fixed;
+    display: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    right: 15px;
+    bottom: 15px;
+    background: #343a40;
+    color: #fff;
+    transition: display 0.5s ease-in-out;
+    z-index: 99999;
 }
 
 .back-to-top i {
@@ -214,8 +214,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
     background-image: 
         linear-gradient( 
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.5) 
+        rgba(0, 0, 0, 0.65), 
+        rgba(0, 0, 0, 0.65) 
         ),
         url('../Assets/hero-bg.jpg');
     background-size: cover;

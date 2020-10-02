@@ -106,3 +106,12 @@ a {
 .fa-arrow-circle-up {
     margin-top: 2px;
 }
+
+.project-technologies {
+    margin-bottom: 15px;
+}
+
+.project-modal {
+    display: flex;
+    align-items: center;
+}

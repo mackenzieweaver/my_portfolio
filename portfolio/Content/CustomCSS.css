@@ -46,7 +46,7 @@
     }
 
     .contact {
-        padding-bottom: 0px;
+        /*padding-bottom: 0px;*/
     }
 }
 
@@ -64,6 +64,18 @@ a {
     margin: 0;
 }
 
-.blog-img {
+.blog-img, .project-img {
     display: block;
+}
+
+.challenge-row {
+    margin-bottom: 30px;
+}
+
+#blog-logo {
+    height: 300px;
+}
+
+.challenge {
+    outline: 1px black solid;
 }

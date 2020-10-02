@@ -79,7 +79,7 @@ a {
 }
 
 .challenge-row {
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
 }
 
 #blog-logo {
@@ -89,15 +89,20 @@ a {
 .challenge {
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     margin: 0 15px;
-    height: 300px;
+    /*height: 300px;*/
     cursor: pointer;
 }
 
 .project-card {
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
     cursor: pointer;
+    color: gray;
 }
 
 .modal {
     margin-left: 150px;
+}
+
+.fa-arrow-circle-up {
+    margin-top: 2px;
 }

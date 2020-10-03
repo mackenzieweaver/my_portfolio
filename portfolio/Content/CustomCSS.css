@@ -24,6 +24,62 @@
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
+a {
+    cursor: pointer;
+}
+
+.camoflauge {
+    color: rgb(4,11,20) !important;
+}
+
+.skill-cards {
+    /*padding: 0 15px;*/
+    padding: 0;
+    margin: 0;
+}
+
+.blog-img, .project-img {
+    display: block;
+}
+
+.challenge-row {
+    /*margin-bottom: 30px;*/
+}
+
+#blog-logo {
+    height: 300px;
+}
+
+.challenge {
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    margin: 0 15px;
+    /*height: 300px;*/
+    cursor: pointer;
+}
+
+.project-card {
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    color: gray;
+}
+
+.modal {
+    margin-left: 150px;
+}
+
+.fa-arrow-circle-up {
+    margin-top: 2px;
+}
+
+.project-technologies {
+    margin-bottom: 15px;
+}
+
+.project-modal {
+    display: flex;
+    align-items: center;
+}
+
 @media (max-width: 1370px) {
     .blog-cards {
         flex-direction: column;
@@ -81,60 +137,8 @@
     #fizz-buzz-img {
         /*margin-left: 50px;*/
     }
-}
 
-a {
-    cursor: pointer;
-}
-
-.camoflauge {
-    color: rgb(4,11,20) !important;
-}
-
-.skill-cards {
-    /*padding: 0 15px;*/
-    padding: 0;
-    margin: 0;
-}
-
-.blog-img, .project-img {
-    display: block;
-}
-
-.challenge-row {
-    /*margin-bottom: 30px;*/
-}
-
-#blog-logo {
-    height: 300px;
-}
-
-.challenge {
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-    margin: 0 15px;
-    /*height: 300px;*/
-    cursor: pointer;
-}
-
-.project-card {
-    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
-    cursor: pointer;
-    color: gray;
-}
-
-.modal {
-    margin-left: 150px;
-}
-
-.fa-arrow-circle-up {
-    margin-top: 2px;
-}
-
-.project-technologies {
-    margin-bottom: 15px;
-}
-
-.project-modal {
-    display: flex;
-    align-items: center;
+    .modal {
+        margin: 0;
+    }
 }

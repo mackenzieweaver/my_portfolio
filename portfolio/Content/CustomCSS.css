@@ -91,6 +91,25 @@
     }
 }
 
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2rem;
+        line-height: 18px;
+    }
+
+    span.typed {
+        font-size: 16px;
+    }
+
+    span.typed-cursor {
+        font-size: 16px;
+    }
+
+    #hero p span {
+        border-bottom: 0px solid black;
+    }
+}
+
 a {
     cursor: pointer;
 }

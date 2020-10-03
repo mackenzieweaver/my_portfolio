@@ -71,8 +71,8 @@
     <Content Include="Assets\Blog\html-illustration.png" />
     <Content Include="Assets\Challenges\challenge-2.png" />
     <Content Include="Assets\Challenges\challenge-3.png" />
-    <Content Include="Assets\Challenges\challenge-4.png" />
     <Content Include="Assets\Challenges\challenge-1.png" />
+    <Content Include="Assets\Challenges\challenge-4.png" />
     <Content Include="Assets\hero-bg.jpg" />
     <Content Include="Assets\profile-img-600.jpg" />
     <Content Include="Assets\Projects\404error.png" />

@@ -77,8 +77,8 @@
     <Content Include="Assets\profile-img-600.jpg" />
     <Content Include="Assets\Projects\404error.png" />
     <Content Include="Assets\Projects\API.png" />
-    <Content Include="Assets\Projects\blog.png" />
     <Content Include="Assets\Projects\finance.png" />
+    <Content Include="Assets\Projects\blog.png" />
     <Content Include="Assets\Skills\dotnet_csharp.png" />
     <Content Include="Assets\Skills\html5_css_js_logos.png" />
     <Content Include="Assets\Skills\webapi2.jpg" />

@@ -165,3 +165,17 @@ a {
 #hero p span {
     border-bottom: 0px solid black;
 }
+
+#header .profile img {
+    margin-top: 50px;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.skill-cards > .card {
+    border: 1px solid rgba(0,0,0,.125);
+    box-shadow: none;
+}

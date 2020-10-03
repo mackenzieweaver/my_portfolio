@@ -77,6 +77,10 @@
     .card-deck .card {
         margin-bottom: 30px;
     }
+
+    #fizz-buzz-img {
+        /*margin-left: 50px;*/
+    }
 }
 
 a {

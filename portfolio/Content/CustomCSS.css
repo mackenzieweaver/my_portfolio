@@ -73,6 +73,10 @@
         margin-right: 0;
         margin-left: 0;
     }
+
+    .card-deck .card {
+        margin-bottom: 30px;
+    }
 }
 
 a {

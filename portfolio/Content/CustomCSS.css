@@ -63,6 +63,16 @@
         margin-right: 15px;
         margin-left: 15px;
     }
+
+    .skill-cards {
+        width: calc(100vw - 30px);
+        margin-left: 15px;
+    }
+
+    .skills-row {
+        margin-right: 0;
+        margin-left: 0;
+    }
 }
 
 a {

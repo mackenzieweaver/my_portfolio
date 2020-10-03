@@ -161,3 +161,7 @@ a {
     display: flex;
     align-items: center;
 }
+
+#hero p span {
+    border-bottom: 0px solid black;
+}

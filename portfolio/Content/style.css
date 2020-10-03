@@ -60,17 +60,17 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  transition: all ease-in-out 0.5s;
-  z-index: 9997;
-  transition: all 0.5s;
-  padding: 0 15px;
-  background: #040b14;
-  overflow-y: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
 }
 
 #header .profile img {
@@ -190,9 +190,9 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
 }
 
-.mobile-nav-toggle i {
-  color: #149ddd;
-}
+    .mobile-nav-toggle i {
+        color: black;
+    }
 
 .mobile-nav-active {
   overflow: hidden;
@@ -214,8 +214,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 100vh;
     background-image: 
         linear-gradient( 
-        rgba(0, 0, 0, 0.65), 
-        rgba(0, 0, 0, 0.65) 
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6) 
         ),
         url('../Assets/hero-bg.jpg');
     background-size: cover;

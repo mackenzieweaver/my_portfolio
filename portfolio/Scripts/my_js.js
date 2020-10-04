@@ -17,6 +17,7 @@ document.getElementById('form')
                     'Your email has been sent!',
                     'success'
                 );
+                this.reset();
             }, (err) => {
                 btn.value = 'Send Email';
                 alert(JSON.stringify(err));

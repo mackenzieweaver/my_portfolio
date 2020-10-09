@@ -187,3 +187,21 @@ a {
 .section-title p {
     margin-bottom: 40px;
 }
+
+/*.blog-card:hover {
+    background: rgba(0, 0, 0, 0.15);
+    transition: all ease-in-out 0.3s;
+}*/
+
+#html-blog {
+    width: 100%;
+    height: auto;
+    background-image: 
+        linear-gradient( 
+        rgba(0, 0, 0, 0.6), 
+        rgba(0, 0, 0, 0.6) ), 
+        url(
+        '../Assets/Blog/html-illustration.png'
+        );
+    background-size: cover;
+}

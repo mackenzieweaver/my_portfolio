@@ -5,7 +5,7 @@ Mackenzie Weaver's Portoflio is a website built under the guidance of Coder Foun
   - .NET and C#
   - HTML CSS and Javascript
   - Algorithms, APIs, and CI/CD
-  -
+  
 ### Check the site
 
 Here [Mackenzie Weaver](https://mackenzie-weaver.netlify.app/)

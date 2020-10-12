@@ -1,6 +1,6 @@
 # Mackenzie Weaver's Portoflio
 
-![alt text](/Assets/portfolio.png)
+![Mackenzie Weaver Portfolio Site Home Page](https://github.com/mackenzieweaver/my_portfolio/blob/master/portfolio/Assets/portfolio.png)
 
 Mackenzie Weaver's Portoflio is a website built under the guidance of Coder Foundry staff guidance and for the purpose of organizing my most memorable projects which show off my skills in the following areas.
 

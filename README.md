@@ -15,4 +15,4 @@ Here [Mackenzie Weaver](https://mackenzie-weaver.netlify.app/)
 
 ### Download and use this as a template!
 
-git clone https://github.com/mackenzieweaver/my_portfolio
+`git clone https://github.com/mackenzieweaver/my_portfolio`

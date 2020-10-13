@@ -11,7 +11,7 @@ Mackenzie Weaver's Portoflio is a website built under the guidance of Coder Foun
   
 ### Check the site
 
-Here [Mackenzie Weaver](https://mackenzie-weaver.netlify.app/)
+[Here!](https://mackenzie-weaver.netlify.app/)
 
 ### Download and use this as a template!
 

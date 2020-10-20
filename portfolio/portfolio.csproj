@@ -73,7 +73,9 @@
     <Content Include="Assets\Challenges\challenge-3.png" />
     <Content Include="Assets\Challenges\challenge-1.png" />
     <Content Include="Assets\Challenges\challenge-4.png" />
+    <Content Include="Assets\Challenges\House Card.svg" />
     <Content Include="Assets\hero-bg.jpg" />
+    <Content Include="Assets\portfolio.png" />
     <Content Include="Assets\profile-img-600.jpg" />
     <Content Include="Assets\Projects\404error.png" />
     <Content Include="Assets\Projects\API.png" />

@@ -218,6 +218,15 @@
                 <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap project-card" data-toggle="modal" data-target="#loan-calc-modal">
+                            <img src="Assets/Challenges/abstract-75.png" class="project-img mx-auto" id="fizz-buzz-img" />
+                            <div class="portfolio-links">
+                                <p class="h4">Loan Calculator</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 portfolio-item filter-app">
                         <div class="portfolio-wrap project-card" data-toggle="modal" data-target="#fizz-buzz-modal">
                             <img src="Assets/Challenges/challenge-1.png" class="project-img mx-auto" id="fizz-buzz-img" />
                             <div class="portfolio-links">
@@ -625,6 +634,48 @@
             </div>
         </div>
         <!-- End API Modal -->
+        <!-- Start loan-calc-modal -->
+        <div class="modal" id="loan-calc-modal">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header text-center">
+                        <h4 class="modal-title">Loan Calculator</h4>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="container-fluid">
+                            <div class="row project-modal">
+                                <div class="col-sm-3">
+                                    <img src="../Assets/Challenges/abstract-75.png" class="project-img mx-auto" />
+                                </div>
+                                <div class="col">
+                                    <div class="row project-description">
+                                        <p>
+                                            A team-based project on an extremely short deadline, we created CSW loans, which stands for Carroll, Scott, and Weaver. As the lead programmer I implemented all designs from front to back and not only met, but exceeded, all expectations and specs for the project. A few key features are: auto input formatting, auto input recalculation, input validation, a line chart (using chart.js), a table built with Javascript and styled with Bootstrap, and a mobile friendly view.
+                                        </p>
+                                    </div>
+                                    <div class="row project-technologies">
+                                        <b>Technologies Used:</b><pre> HTML5, CSS, JS</pre>
+                                    </div>
+                                    <div class="row project-links">
+                                        <div class="col text-right">
+                                            <a class="btn btn-dark" href="https://csw-loan-calc.netlify.app/" target="_blank">The Website</a>
+                                        </div>
+                                        <div class="col text-left">
+                                            <a class="btn btn-outline-dark" href="https://github.com/mackenzieweaver/MortgageCalculator" target="_blank">The Code</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End loan-calc-modal -->
         <!-- Start fizz-buzz-modal -->
         <div class="modal" id="fizz-buzz-modal">
             <div class="modal-dialog modal-xl modal-dialog-centered">

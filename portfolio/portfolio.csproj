@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Assets\Blog\bootstrap-icon.png" />
     <Content Include="Assets\Blog\html-illustration.png" />
+    <Content Include="Assets\Challenges\abstract-75.png" />
     <Content Include="Assets\Challenges\challenge-2.png" />
     <Content Include="Assets\Challenges\challenge-3.png" />
     <Content Include="Assets\Challenges\challenge-1.png" />

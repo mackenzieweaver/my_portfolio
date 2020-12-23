@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Animated GIF-downsized_large.gif" />
     <Content Include="Assets\best-sm.jpg" />
     <Content Include="Assets\Blog\bootstrap-icon.png" />
     <Content Include="Assets\Blog\html-illustration.png" />
@@ -79,11 +80,13 @@
     <Content Include="Assets\hero-bg.jpg" />
     <Content Include="Assets\portfolio.png" />
     <Content Include="Assets\profile-img-600.jpg" />
+    <Content Include="Assets\Projects\2020-12-23-10-24-komodo-live.herokuapp.com.svg" />
     <Content Include="Assets\Projects\404error.png" />
     <Content Include="Assets\Projects\API.png" />
     <Content Include="Assets\Projects\finance.png" />
     <Content Include="Assets\Projects\blog.png" />
     <Content Include="Assets\best.jpg" />
+    <Content Include="Assets\Projects\komodo.jpg" />
     <Content Include="Assets\Skills\dotnet_csharp.png" />
     <Content Include="Assets\Skills\html5_css_js_logos.png" />
     <Content Include="Assets\Skills\webapi2.jpg" />

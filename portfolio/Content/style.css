@@ -532,11 +532,12 @@ section {
 }
 
 .portfolio .portfolio-wrap {
-  transition: 0.3s;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  height: 300px;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    height: 300px;
+    border-radius: 2rem 0 2rem 2rem;
 }
 
 .portfolio .portfolio-wrap::before {

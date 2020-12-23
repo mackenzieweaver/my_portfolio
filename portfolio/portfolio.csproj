@@ -79,8 +79,13 @@
     <Content Include="Assets\Challenges\House Card.svg" />
     <Content Include="Assets\hero-bg.jpg" />
     <Content Include="Assets\Modals\apimodal.png" />
+    <Content Include="Assets\Modals\blogmodal.png" />
     <Content Include="Assets\Modals\btmodal.png" />
+    <Content Include="Assets\Modals\fbmodal.png" />
     <Content Include="Assets\Modals\fpmodal.png" />
+    <Content Include="Assets\Modals\loanmodal.png" />
+    <Content Include="Assets\Modals\shmodal.png" />
+    <Content Include="Assets\Modals\tcmodal.png" />
     <Content Include="Assets\portfolio.png" />
     <Content Include="Assets\profile-img-600.jpg" />
     <Content Include="Assets\Projects\2020-12-23-10-24-komodo-live.herokuapp.com.svg" />

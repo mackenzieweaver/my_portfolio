@@ -84,6 +84,7 @@
     <Content Include="Assets\Modals\fbmodal.png" />
     <Content Include="Assets\Modals\fpmodal.png" />
     <Content Include="Assets\Modals\loanmodal.png" />
+    <Content Include="Assets\Modals\portfolio_fp_modal.png" />
     <Content Include="Assets\Modals\shmodal.png" />
     <Content Include="Assets\Modals\tcmodal.png" />
     <Content Include="Assets\portfolio.png" />
